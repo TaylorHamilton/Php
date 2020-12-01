@@ -15,7 +15,7 @@
     <!-- Start of dynamic content section-->
     <?php
     if(isset($_GET('content'))){
-        switch$_GET('content'){
+        switch($_GET('content')){
             case'About Me':
                 include("inc_about.html");
             break;
